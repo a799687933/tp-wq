@@ -59,6 +59,7 @@ class Base extends Common
             cache('DB_CONFIG_DATA', null);
             cache('DB_CONFIG_DATA', $systemConfig, 36000); //缓存配置
         }
+        //var_dump($systemConfig);die;
         return resultArray(['data' => $systemConfig]);
     }
 

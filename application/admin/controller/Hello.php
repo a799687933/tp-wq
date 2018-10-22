@@ -18,8 +18,11 @@ class Hello extends Common
        //$obj = new \weiqing\weiqing();
          
        //$obj->test();
-
-        return $this->fetch();
+    	$data['SYSTEM_NAME']=111;
+         return resultArray(['data' => $data]);
+    	//var_dump(66);die;
+          //echo'666';
+        //return $this->fetch('index');
     }
 }
 ?>

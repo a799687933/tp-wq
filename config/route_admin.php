@@ -58,7 +58,7 @@ return [
 	'admin/posts/enables' => ['admin/posts/enables', ['method' => 'POST']],
 
 
-     'admin/hello/index' => ['admin/hello/index', ['method' => 'GET']],
+     'admin/hello/index' => ['admin/hello/index', ['method' => 'POST']],
 
 	
 	// MISS路由
