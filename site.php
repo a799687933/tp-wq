@@ -38,11 +38,13 @@ class Run_cowstepModuleSite extends weiqing {
 	public function doWebStep_config() {
 
 		  global $_W, $_GPC;
+		  include "template/header.html";
           include "template/index.html";
 		  //这个操作被定义用来呈现 管理中心导航菜单
 	}
 		public function doWebUsers() {
 		  global $_W, $_GPC;
+		  include "template/header.html";
           include "template/index.html";
 	}
 		public function doWebOrders() {
