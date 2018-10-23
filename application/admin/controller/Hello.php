@@ -19,7 +19,9 @@ class Hello extends Common
          
        //$obj->test();
     	$data['SYSTEM_NAME']=111;
-         return resultArray(['data' => $data]);
+    // return $this->success('登录成功');
+     //$this->redirect('https://www.baidu.com/');
+        // return resultArray(['data' => $data]);
     	//var_dump(66);die;
           //echo'666';
         //return $this->fetch('index');

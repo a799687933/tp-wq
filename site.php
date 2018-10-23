@@ -33,10 +33,19 @@ class Run_cowstepModuleSite extends weiqing {
        $c=new Hello();
        $c->index();
 		//var_dump($c);
-		//这个操作被定义用来呈现 功能封面
+	//这个操作被定义用来呈现 功能封面
 	}
 	public function doWebStep_config() {
-		//这个操作被定义用来呈现 管理中心导航菜单
+
+		global $_W, $_GPC;
+        $url='https://www.baidu.com';
+         //立即跳转至目标页面
+          include "template/header.html";
+        
+          $result = file_get_contents($url);
+          echo $result;
+          include "template/footer.html";
+		  //这个操作被定义用来呈现 管理中心导航菜单
 	}
 		public function doWebUsers() {
 		//这个操作被定义用来呈现 管理中心导航菜单
